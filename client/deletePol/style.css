@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    color: black;
+  }
+  
+  #button{
+    background-color: green;
+    color: white;
+    width: 10%;
+    height: 50px;
+  }
+  
+  input{
+    height: 30px;
+    width: 10%;
+    text-align: center;
+  }

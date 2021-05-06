@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Main Page</title>
+  </head>
+  <body style="text-align: center;">
+    <div id='app-view'>
+      <form method="POST" action="/addPol/submit-form">
+        <h1>Add Politician</h1>
+        <p>PoliticanID <br /> <input type='text' name='pid'> <br /></p>
+        <p>First Name <br /><input type='text' name='fname'><br /> </p>
+        <p>Last Name <br /><input type ='text' name ='lname'><br /> </p>
+        <p>Party <br /><input type='text' name='party'><br /> </p>
+        <p>Founded Year <br /><input type='text' name='foundedYear'><br /> </p>
+        <p>Political Leaning Score <br /><input type='text' name='politicalLeaningScore'><br /> </p>
+        <input type='submit' id = "button" value='Add'>
+      </form>
+    </div>
+  </body>
+</html>

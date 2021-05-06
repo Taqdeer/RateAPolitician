@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="searchRatingGroupBy.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <title>Politician Page</title>
+  </head>
+  <body>
+    <h1>Search all politicians with a particular rating</h1>
+    <div id='search'>
+      <input type="text" id="searchInput" placeholder="Rating?">
+      <button id="searchPoliticians" type="button" class="btn btn-info" onclick="loadPolRating()">
+        <span class="glyphicon glyphicon-search"></span> 
+      </button>
+    </div>
+    <div id='searchResults' class="panel-group">
+        <div class="panel panel-success">
+            <div class="panel-heading">Politicians with rating</div>
+            <div class="panel-body" id="ratingInput"></div>
+          </div>
+     
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+/*#update{*/
+/*    width: 90%; !* Full-width *!*/
+/*    font-size: 16px; !* Increase font-size *!*/
+/*    padding: 12px 20px 12px 40px; !* Add some padding *!*/
+/*    border: 1px solid #ddd; !* Add a grey border *!*/
+/*    margin: 12px; !* Add some space below the input *!*/
+/*}*/
+h1{
+    text-align: center;
+    color: aqua;
+}
+#search{
+    margin: 30px;
+    padding: 20px;
+}
+
+body{
+    text-align: center;
+    color: black;
+  }
+  
+  #button{
+    background-color: green;
+    color: white;
+    width: 10%;
+    height: 50px;
+  }
+  
+  input{
+    height: 30px;
+    width: 10%;
+    text-align: center;
+  }

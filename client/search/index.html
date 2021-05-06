@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="search.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <title>Politician Page</title>
+  </head>
+  <body>
+    <h1>Search a Politician</h1>
+    <div id='search'>
+      <input type="text" id="searchInput" placeholder="Search for names">
+      <button id="searchPoliticians" type="button" class="btn btn-info" onclick="loadPolitician()">
+        <span class="glyphicon glyphicon-search"></span> 
+      </button>
+    </div>
+    <div id='searchResults' class="panel-group">
+      <div class="panel panel-info">
+        <div class="panel-heading"> Rating </div>
+        <div id="rating" class ="panel-body"></div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading"> PartyName </div>
+        <div id="partyName" class ="panel-body"></div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading"> Legal First Name </div>
+        <div id="firstName" class ="panel-body"></div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading"> Legal Last Name </div>
+        <div id="lastName" class ="panel-body"></div>
+      </div>
+     
+
+    </div>
+  </body>
+</html>

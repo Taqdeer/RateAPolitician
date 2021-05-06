@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Delete Page</title>
+</head>
+<body>
+<script src="deletePol.js"></script>
+<form method="POST" action="/articleDelete/">
+    <h1>Delete Politician</h1>
+    <p>Input PoliticianID to delete</p> <p> <input type='text' name='id' id = "id"><br /> </p>
+    <input type="button" onclick="performDelete()" name="delete" value="Delete">
+    <div id='results' class="panel-group">
+
+
+    </div>
+</form>
+</body>
+</html>

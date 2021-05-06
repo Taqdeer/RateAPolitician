@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Delete Page</title>
+</head>
+<body>
+<script src="articleDelete.js"></script>
+<form method="POST" action="/articleDelete/">
+    <h1>Delete Article</h1>
+    <p>URL</p> <p><input type='text' name='url' id = "url"><br /> </p>
+    <input type="button" onclick="performDelete()" name="delete" id="button" value="Delete">
+    <p id="results"></p>
+</form>
+</body>
+</html>
